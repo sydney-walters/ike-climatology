@@ -1,0 +1,18 @@
+# Core
+numpy>=1.26,<3
+pandas>=2.2,<3
+xarray>=2023.1
+netCDF4>=1.6
+
+# Plotting (all notebooks)
+matplotlib>=3.8
+seaborn>=0.13,<0.14   # 0.14 removes the `palette=` without `hue=` shorthand used in several violinplot calls
+
+# Plotting (global_climatology_figure.ipynb, global_tracks_figure.ipynb only)
+cartopy>=0.22
+
+# Statistics (basin_ike_comparison_figure.ipynb, ss_breakdown_figure.ipynb,
+# rate_of_change_matrix_figure.ipynb, shear_rate_of_change_figure.ipynb,
+# decile_composite_figure.ipynb, decile_composite_combined_figure.ipynb)
+scipy>=1.11
+statsmodels>=0.14
