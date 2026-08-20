@@ -7,7 +7,7 @@ the IKE calculation from Misra et al. 2013 and Klotzbach et al. 2022.
 
 ## How this repo is organized, and why
 
-There are three folders that matter:
+There are two folders that matter:
 
 - **`src/ike_climatology/`** -- this is a Python *package*: code that
   does most of the work (reading IBTrACS files, computing IKE, filtering
